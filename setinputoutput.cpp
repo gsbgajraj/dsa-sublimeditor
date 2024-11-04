@@ -1,11 +1,18 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//other way to print the map
+//printing elements via iterators
+// void print(set<string> &s){
+// 	for(auto it=s.begin();it!=s.end();++it){
+// 	   cout<<(*it)<<endl;	
+// 	}
+// }
+
+//printing elements via iterating on values
 void print(set<string> &s){
-	for(auto it=s.begin();it!=s.end();++it){
-	   cout<<(*it)<<endl;	
-	}
+    for(auto value: s){
+       cout<<value<<endl;   
+    }
 }
 int main(){
 	set<string>s;
