@@ -8,7 +8,6 @@ void swapAlternate(vector<int> &v){
     swap(v[i],v[i+1]);
   }
  }
-
 }
 
 void display(vector<int> &v)
