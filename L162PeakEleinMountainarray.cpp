@@ -8,7 +8,7 @@ int peakelement(vector<int> &nums){
         while(start<=end){
           mid=(start+end)/2;
           if(nums[mid-1]<nums[mid] && nums[mid]>nums[mid+1]){
-            return mid;
+            return mid+1;
           }
           else if(nums[mid-1]<nums[mid]){
             start=mid+1;
