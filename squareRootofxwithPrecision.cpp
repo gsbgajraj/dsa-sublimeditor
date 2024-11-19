@@ -27,7 +27,7 @@ double SquareRootPrecision(int x, int precision,int tempsolution){
    double factor =1;
    double ans=tempsolution;
    for(int i=0;i<precision;++i){
-   	double factor=factor/10;
+   	factor=factor/10;
    	for(double j=ans;j*j<x;j=j+factor){
    		ans=j;
    	}
@@ -39,6 +39,8 @@ int main(){
     int x;
     cin>>x;
     int tempsolution=SquareRoot(x);
-    cout<<"SquareRoot is: "<<SquareRootPrecision(x,1,tempsolution);
+    double finalans=SquareRootPrecision(x,10,tempsolution);
+    cout<<finalans;
     return 0;
+
 }
