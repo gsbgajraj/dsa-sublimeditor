@@ -55,3 +55,5 @@ int main (){
    cout<<bookAllocation(v,totalstudents);
    return 0;
 }
+
+
