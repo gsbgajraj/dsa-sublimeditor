@@ -12,12 +12,12 @@ void display(string str)
 
 int Longestsubstring(string str){
   int maxlength=0;
-  set<char>myset;
   for(int i=0;i<str.length();++i){
+  set<char>myset;
     for(int j=i;j<str.length();++j){
       if(myset.find(str[j])!=myset.end()) break;
-      maxlength=max(maxlength,j-i+1);
       myset.insert(str[j]);
+      maxlength=max(maxlength,j-i+1);
     }
   }
   return maxlength;
