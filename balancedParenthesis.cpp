@@ -42,9 +42,9 @@ int main() {
     std::cin >> expression;
 
     if (isBalanced(expression)) {
-        std::cout << "yes.\n";
+        std::cout << "yes\n";
     } else {
-        std::cout << "No.\n";
+        std::cout << "No\n";
     }
 
     return 0;
