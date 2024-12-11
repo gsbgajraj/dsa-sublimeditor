@@ -2,5 +2,4 @@
 update as soon as possible 
 
 not updated till mmany times
-some updates yes
-some updates
+Blind 75, 10 completed
